@@ -6,7 +6,7 @@ document.getElementById("ai").innerHTML = `
 <image style="overflow:visible;" width="219" height="153" xlink:href="source/image/logo-01.png"  transform="matrix(0.6536 0 0 0.6536 408.4307 -4.882813e-004)">
 </image>
 <text id="point" transform="matrix(1 0 0 1 453.3047 130.9727)" style="fill:#F39800;stroke:#F39800;stroke-miterlimit:10; font-family:'Arial'; font-size:24;">0	</text>
-<text id="hp_txt" transform="matrix(1 0 0 1 14.8452 35)" style="fill:#F39800;stroke:#F39800;stroke-miterlimit:10; font-family:'Arial'; font-size:24;">15</text>
+<text id="hp_txt" transform="matrix(1 0 0 1 14.8452 35)" style="fill:#F39800;stroke:#F39800;stroke-miterlimit:10; font-family:'Arial'; font-size:24;">999</text>
 <rect x="72.567" y="15" style="fill:#FFFFFF;" width="300" height="20"/>
 <rect id="hp_line" x="72.567" y="15" style="fill:#F39800;" width="300" height="20"/>
 <text id="time" transform="matrix(1 0 0 1 599.9795 35)" style="fill:#F39800;stroke:#F39800;stroke-miterlimit:10; font-family:'Arial'; font-size:24;">0</text>

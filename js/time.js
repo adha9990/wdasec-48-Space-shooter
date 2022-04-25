@@ -24,7 +24,7 @@ class time{
     }
     clock(){
         this.fps++;
-        if(this.fps==60){
+        if(this.fps==120){
             this.fps = 0;
             this.s++;
             rocket.hp--;

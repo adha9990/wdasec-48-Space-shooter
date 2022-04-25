@@ -13,7 +13,8 @@ class rocket{
         this.keys = [];
         this.shoot = true;
         this.speed = 3;
-        this.hp = 15;
+        this.hp = 100;
+        this.maxHp = 100;
     }
     draw(){
         this.w = this.image.width/2;
@@ -26,7 +27,7 @@ class rocket{
         this.collision();
         if(this.hp<0) this.hp = 0;
         $("#hp_txt").innerHTML = this.hp;
-        $("#hp_line").style.width = this.hp*10;
+        $("#hp_line").style.width = 300 * this.hp / this.maxHp;
         if(this.hp == 0){
             main.play = false;
             $("#input").style.display = "block";
@@ -55,7 +56,7 @@ class rocket{
                 }
                 if(e.name=="oil"){
                     this.hp += 15;
-                    if(this.hp>30) this.hp = 30;
+                    if(this.hp>this.maxHp) this.hp = this.maxHp;
                     e.clear();
                 }
             }
